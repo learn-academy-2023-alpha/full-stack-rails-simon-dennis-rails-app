@@ -6,3 +6,4 @@ Rails.application.routes.draw do
   post 'blogs' => 'blog#create'
   delete '/blogs/:id' => 'blog#destroy', as: "delete"
 end
+

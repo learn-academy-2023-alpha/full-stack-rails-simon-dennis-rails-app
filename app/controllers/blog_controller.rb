@@ -30,3 +30,4 @@ class BlogController < ApplicationController
         params.require(:blog).permit(:title, :content)
     end
 end
+
